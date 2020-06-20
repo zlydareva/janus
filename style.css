@@ -438,13 +438,41 @@ footer {
 
 }
 
-.opening-cover{
+.wrapper1 {
     grid-column: 1 / 11;
     grid-row: 1;
     object-fit: cover;
     justify-self: center;
     overflow: hidden;
 }
+
+.opening-cover{
+    object-fit: cover;
+    justify-self: center;
+    overflow: hidden;
+}
+.captioncover {
+    position: absolute;
+    top: 86px;
+    opacity: 0;
+    transition: .5s ease;
+  }
+
+.wrapper1:hover .captioncover {
+    opacity: 1;
+  }
+
+.textcaption {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 36%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+
 .cover-img {
     width: 100%;
 }
@@ -611,6 +639,7 @@ p {
     padding: 0px 6px 18px 12px;
 }
 
+
 .catergory {
     font-size: 18px;
     padding-top: 10px;
@@ -621,7 +650,8 @@ p {
     width: 312px;
     height: 132px;
     object-fit: cover;
-    position: relative;
+    /* position: relative; */
+    object-position: 30%;
 }
 
 .imagecenter {
