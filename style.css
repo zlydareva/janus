@@ -608,9 +608,9 @@ p {
     display: block; 
     float: right;
     width: 480px;
-    margin-right: -440px;
+    margin-right: -480px;
     padding-left: 18px;
-    padding-right: 20px;
+    padding-right: 10px;
 
 }
 
