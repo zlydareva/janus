@@ -472,6 +472,60 @@ footer {
     -ms-transform: translate(-50%, -50%);
 }
 
+.textcaption-left {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: -40%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.captionimages {
+    position: absolute;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.wrapperimg {
+    object-fit: cover;
+    display: block; 
+    float: right;
+    width: 480px;
+    margin-right: -440px;
+    padding-left: 18px;
+    padding-right: 20px;
+
+}
+
+.wrappingimg-left {
+    display: block;
+    object-fit: cover;
+    float: left;
+    width: 480px;
+    padding-left: 50px;
+}
+#frombrochure {
+    margin-left: 0px;
+}
+
+.wrapperimg-left:hover .captionimages {
+    opacity: 1;
+  }
+
+.wrapperimg:hover .captionimages {
+    opacity: 1;
+  }
+
+#beefalo{
+margin-right: 0px;
+}
+
+#triplex {
+    margin-right: 0px;
+}
+
 
 .cover-img {
     width: 100%;
