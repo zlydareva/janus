@@ -61,22 +61,15 @@ nav {
 
 
 ul{
-    background-color: white;
-    margin-left: 68px;
-    margin-right: auto;
+    margin-left: 40px;
     list-style: none;
-    width: 100%;
-    text-align: left;
-    padding-top: 0;
-    padding-bottom: 6px;
-    z-index: 99;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
 }
 
 li{
-
-    margin-left: 60px;
-    padding-left: 20px;
-    padding-right: 50px;
+    margin-right: 20px;
     
 }
 
@@ -191,6 +184,7 @@ a:link {
 .gallery-img-fixed {
     width: 200%;
 }
+
 
 /*overlay*/
 
@@ -446,7 +440,7 @@ footer {
 }
 
 .opening-cover{
-    object-fit: cover;
+    object-fit: cov
     justify-self: center;
     overflow: hidden;
 }
@@ -487,6 +481,14 @@ footer {
     transition: .5s ease;
 }
 
+.overlayimagefixed {
+    position: fixed;
+    margin-top: -637px;
+    opacity: 0;
+    transition: .5s ease;
+
+}
+
 .wrapperimg {
     object-fit: cover;
     display: block; 
@@ -498,6 +500,13 @@ footer {
 
 }
 
+.wrapperfixed {
+    object-fit: cover;
+    display: block; 
+}
+
+
+
 .wrappingimg-left {
     display: block;
     object-fit: cover;
@@ -508,6 +517,11 @@ footer {
 #frombrochure {
     margin-left: 0px;
 }
+.wrapperfixed:hover .overlayimagefixed{
+    opacity: 1;
+
+}
+
 
 .wrapperimg-left:hover .captionimages {
     opacity: 1;
@@ -517,14 +531,60 @@ footer {
     opacity: 1;
   }
 
+  .textcaptionhomepage{
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 36%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+  }
+
+  #homepagecategoryfixed {
+      font-size: 26px;
+      padding-bottom: 20px;
+  }
+
+  #homepagetitlefixed {
+      font-family: "ogg";
+      font-size: 46px;
+  }
+
+  #homepageauthorfixed {
+      font-size: 24px;
+      margin-top: -10px;
+  }
+
+
 #beefalo{
-margin-right: 0px;
+margin-right: 20px;
+width: 95%;
+}
+
+#football {
+    margin-right: -20px;
+    width: 100%;
+}
+.football {
+    justify-self: left;
+}
+#massi {
+    margin-right: -25px;
+}
+
+#flower {
+    margin-right: -20px;
+    width: 100%;
 }
 
 #triplex {
     margin-right: 0px;
 }
 
+#feast {
+    margin-right: -20px;
+}
 
 .cover-img {
     width: 100%;
@@ -581,8 +641,8 @@ h2 {
 
 p {
     font-family: palatino;
-    font-size: 22px;
-    line-height: 36px;
+    font-size: 20px;
+    line-height: 34px;
     padding-top: 14px;
     widows: 3;
 }
@@ -638,7 +698,22 @@ p {
     padding-left: 0px;
 }
 
+#portrait11 {
+    width: 130px;
+    height: 300px;
+    margin-right: 18px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
  #portrait2 {
+    width: 130px;
+    height: 300px;
+    margin-right: 18px;
+    padding-left: 0px;
+}
+
+#portrait22 {
     width: 130px;
     height: 300px;
     margin-right: 18px;
@@ -651,7 +726,34 @@ p {
     padding-left: 0px;
     margin-right: 10px;
 }
+#portrait33 {
+    width: 130px;
+    height: 300px;
+    padding-left: 0px;
+    margin-right: 10px;
+}
 
+.textcaptionportraits {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+    width: 400px;
+}
+
+#pindel {
+   
+}
+
+#little {
+    padding-left: 70px;
+
+}
+
+#whitten{
+    padding-left: 90px;
+
+  
+}
 
 #detroit {
     padding-right: 18px;
