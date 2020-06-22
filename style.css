@@ -502,6 +502,17 @@ footer {
 
 }
 
+.wrapperimgmoney {
+    object-fit: cover;
+    display: block; 
+    overflow: hidden;
+    float: right;
+/*     width: 480px;
+    padding-left: 18px;
+    padding-right: 20px; */
+
+}
+
 .wrapperfixed {
     object-fit: cover;
     display: block; 
@@ -529,6 +540,14 @@ footer {
   }
 
 .wrapperimg:hover .captionimages {
+    opacity: 1;
+  }
+
+  .wrapperimgmoney:hover .overlaymoneygrid {
+    opacity: 1;
+  }
+
+  .wrapperimgmoney:hover .overlaymoneygrid21 {
     opacity: 1;
   }
 
@@ -576,6 +595,20 @@ footer {
     height: 220px;
     margin-top: -358px;
     
+}
+
+.overlaymoneygrid {
+    position: relative;
+    opacity: 0;
+    transition: .5s ease;
+    margin-top: -600px;
+}
+
+.overlaymoneygrid21 {
+    position: relative;
+    opacity: 0;
+    transition: .5s ease;
+    margin-top: -290px;
 }
 
 .wrapperimggrid:hover .overlayimghpgrid7 {
@@ -645,6 +678,11 @@ width: 95%;
 
 #feast {
     margin-right: -20px;
+}
+
+.moneygridel12 {
+    overflow: hidden;
+    height: 100%;
 }
 
 .cover-img {
@@ -917,6 +955,7 @@ p {
 
 #morework {
     font-size: 18px;
+    padding-bottom: 10px;
 }
 
 .visual-grid {
