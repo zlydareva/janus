@@ -137,6 +137,7 @@ a:link {
   .wrapper {
       margin: 0 auto;
   }
+
  
 /* main{
     position: relative;
@@ -575,6 +576,20 @@ footer {
     height: 220px;
     margin-top: -358px;
     
+}
+
+.wrapperimggrid:hover .overlayimghpgrid7 {
+    opacity: 1;
+}
+
+.overlayimghpgrid7 {
+    position: relative;
+    opacity: 0;
+    transition: .5s ease;
+    width: 400px;
+    height: 220px;
+    margin-top: -236px;
+
 }
 
   #homepagecategorygrid {
