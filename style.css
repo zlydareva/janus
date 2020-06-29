@@ -41,10 +41,11 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    font-size: 18px;
-    padding-top: 10px;
+    font-size: 16px;
+    padding-top: 5px;
     width: 100%;
     z-index: 99;
+    font-size: 14px;
 }
 .SEARCH {
     background-color: white;
@@ -74,18 +75,15 @@ li{
 }
 
 .logo {
-    grid-column: 8 / 9;
     margin-left: 0px;
-    width: 110px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
+    justify-content: center;
  }
 
 .menu-articles {
-    grid-column: 5 / 6;
     place-self: center;
 }
 .menu-about {
-    grid-column: 6 / 7;
     place-self: center;
 }
 
@@ -100,12 +98,10 @@ li{
 }
 
 .menu-support {
-    grid-column: 12 / 13;
     place-self: center;
 }
 
 .menu-inspiration {
-    grid-column: 13 / 14;
     place-self: center;
 }
 
@@ -693,6 +689,11 @@ width: 95%;
     font-size: 18px;
     padding-top: 10px;
 }
+
+#authouritalic {
+    font-style: italic;
+}
+
 .article-title {
     grid-column: 3 / 9;
     grid-row: 2;
